@@ -40,38 +40,20 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.admin',
+    'django.contrib.comments',
 
-    # Django CMS Addition plugins
-
-    #Filers libs
-    'filer',
-    'easy_thumbnails',
-
-    'cmsplugin_filer_file',
-    'cmsplugin_filer_folder',
-    'cmsplugin_filer_image',
-    'cmsplugin_filer_teaser',
-    'cmsplugin_filer_video',
-
-    'djangocms_text_ckeditor',  # note this needs to be above the 'cms' entry
-
-    # Django CMS
-    'cms',  # django CMS itself
-    'mptt',  # utilities for implementing a modified pre-order traversal tree
-    'menus',  # helper for model independent hierarchical website navigation
-    'south',  # intelligent schema and data migrations
-    'sekizai',  # for javascript and css management
-    'djangocms_admin_style',
-    # for the admin skin. You **must** add 'djangocms_admin_style' in the list **before** 'django.contrib.admin'.
-    'django.contrib.messages',  # to enable messages framework (see :ref:`Enable messages <enable-messages>`)
-    #'reversion',
-
-    # Custom apps
+    #Custom apps
     'news',
+    'widget_exchange_rates',
+    #Zinnia blog
+    # 'django_comments',
+    'mptt',
+    'tagging',
+    'zinnia',
 )
 
 SITE_ID = 1
-THUMBNAIL_HIGH_RESOLUTION = True
+# THUMBNAIL_HIGH_RESOLUTION = True
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -83,11 +65,11 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
     # 'django.middleware.locale.LocaleMiddleware',
-    'django.middleware.doc.XViewMiddleware',
-    'cms.middleware.user.CurrentUserMiddleware',
-    'cms.middleware.page.CurrentPageMiddleware',
-    'cms.middleware.toolbar.ToolbarMiddleware',
-    'cms.middleware.language.LanguageCookieMiddleware',
+    # 'django.middleware.doc.XViewMiddleware',
+    # 'cms.middleware.user.CurrentUserMiddleware',
+    # 'cms.middleware.page.CurrentPageMiddleware',
+    # 'cms.middleware.toolbar.ToolbarMiddleware',
+    # 'cms.middleware.language.LanguageCookieMiddleware',
 )
 
 TEMPLATE_CONTEXT_PROCESSORS = (
@@ -98,21 +80,26 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'django.core.context_processors.media',
     'django.core.context_processors.static',
     'sekizai.context_processors.sekizai',
-    'cms.context_processors.cms_settings',
-    'cms.context_processors.media',
+    'zinnia.context_processors.version',  # Optional
+    # 'cms.context_processors.cms_settings',
+    # 'cms.context_processors.media',
 )
 
-THUMBNAIL_PROCESSORS = (
-    'easy_thumbnails.processors.colorspace',
-    'easy_thumbnails.processors.autocrop',
-    #'easy_thumbnails.processors.scale_and_crop',
-    'filer.thumbnail_processors.scale_and_crop_with_subject_location',
-    'easy_thumbnails.processors.filters',
-)
+# TEMPLATE_LOADERS = (
+#     'django.template.loaders.app_directories.load_template_source',
+# )
 
-SOUTH_MIGRATION_MODULES = {
-        'easy_thumbnails': 'easy_thumbnails.south_migrations',
-}
+# THUMBNAIL_PROCESSORS = (
+#     'easy_thumbnails.processors.colorspace',
+#     'easy_thumbnails.processors.autocrop',
+#     'easy_thumbnails.processors.scale_and_crop',
+    # 'filer.thumbnail_processors.scale_and_crop_with_subject_location',
+    # 'easy_thumbnails.processors.filters',
+# )
+
+# SOUTH_MIGRATION_MODULES = {
+#         'easy_thumbnails': 'easy_thumbnails.south_migrations',
+# }
 
 ROOT_URLCONF = 'eurofundusze.urls'
 
@@ -124,8 +111,12 @@ WSGI_APPLICATION = 'eurofundusze.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'eurofundusze_db',
+        'USER': 'gauee',
+        'PASSWORD': 'gauee',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 
@@ -145,8 +136,8 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
-STATIC_ROOT = '/home/gauee/DjangoProjects/LukaszPastuszynskiEuroDof/eurofundusze/eurofundusze/static/'
-# STATIC_ROOT = os.path.join(BASE_DIR, "static")
+# STATIC_ROOT = '/home/gauee/DjangoProjects/LukaszPastuszynskiEuroDof/eurofundusze/eurofundusze/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, "eurofundusze/static")
 
 STATIC_URL = '/static/'
 # STATICFILES_FINDERS = (
@@ -168,10 +159,10 @@ TEMPLATE_DIRS = (
     os.path.join(PROJECT_PATH, "templates"),
 )
 
-CMS_TEMPLATES = (
-    ('template_1.html', 'Template One'),
-    ('template_2.html', 'Template Two'),
-)
+# CMS_TEMPLATES = (
+#     ('template_1.html', 'Template One'),
+#     ('template_2.html', 'Template Two'),
+# )
 
 LANGUAGES = [
     #('en', 'English'),

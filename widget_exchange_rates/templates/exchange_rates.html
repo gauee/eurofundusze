@@ -1,0 +1,12 @@
+<table>
+    <caption>Kursy Walut</caption>
+    <tbody>
+    {% for r in rates %}
+    <tr>
+        {% for e in r %}
+        <td>{{ e }}</td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>

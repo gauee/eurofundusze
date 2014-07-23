@@ -95,6 +95,14 @@ header{
     filter: alpha(opacity=40);
 */
 
+#left_aside{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 600px;
+    width: 241px;
+}
+
 nav{
     position: absolute;
     top: 0px;
@@ -181,8 +189,12 @@ aside{
     position: absolute;
     top: 0px;
     right: 0px;
-    color: white;
     padding: 10px;
+    color: red;
+}
+
+aside table{
+    color: white;
 }
 
 aside td{

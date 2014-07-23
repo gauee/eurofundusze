@@ -1,4 +1,4 @@
-{% load cms_tags sekizai_tags placeholder_tags %}
+{% load widget_exchange_rates %}
 <html>
 <head>
     <link rel="stylesheet" type="text/css" media="screen" href="/static/css/base.css"/>
@@ -12,15 +12,7 @@
         </div>
     </header>
     <div id="content">
-        <nav>
-            <ul>
-                <li>Strona Główna</li>
-                <li>Projekty</li>
-                <li>Kontakt</li>
-                <li>Euro Dotacje</li>
-                <li>szukaj</li>
-            </ul>
-        </nav>
+        {% include "base_left_side.html" %}
         <main>
             <div id="news_with_image">
                 <div class="big_news">
@@ -72,67 +64,12 @@
                 </div>
             </div>
         </main>
-        <aside>
-            <table>
-                <tbody>
-                <tr>
-                    <td>Referencyjna</td>
-                    <td>2,50</td>
-                </tr>
-                <tr>
-                    <td>Lombardowa</td>
-                    <td>4,00</td>
-                </tr>
-                <tr>
-                    <td>Depozytowa</td>
-                    <td>1,00</td>
-                </tr>
-                <tr>
-                    <td>Redyskonto weksli</td>
-                    <td>2,75</td>
-                </tr>
-                </tbody>
-            </table>
 
-            <table class="tabela">
-                <tbody>
-                <tr>
-                    <td>
-                        €
-                    </td>
-                    <td class="ar">
-                        4,14
-                    </td>
-                </tr>
-                <tr>
-                    <td class="nazwa">
-                        $
-                    </td>
-                    <td class="ar">
-                        3,04
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        CHF
-                    </td>
-                    <td class="ar">
-                        3,41
-                    </td>
-                </tr>
-                <tr>
-                    <td class="nazwa">
-                        GBP
-                    </td>
-                    <td class="ar">
-                        5,20
-                    </td>
-                </tr>
-                </tbody>
-            </table>
-        </aside>
+        {% include "base_right_side.html" %}
+
+
     </div>
-    <footer>Gauee Copyrights 2014</footer>
+    {% include "base_footer.html" %}
 
 </div>
 

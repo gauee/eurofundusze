@@ -1,0 +1,26 @@
+{% load widget_exchange_rates %}
+
+<aside>
+    <table>
+        <tbody>
+        <tr>
+            <td>Referencyjna</td>
+            <td>2,50</td>
+        </tr>
+        <tr>
+            <td>Lombardowa</td>
+            <td>4,00</td>
+        </tr>
+        <tr>
+            <td>Depozytowa</td>
+            <td>1,00</td>
+        </tr>
+        <tr>
+            <td>Redyskonto weksli</td>
+            <td>2,75</td>
+        </tr>
+        </tbody>
+    </table>
+    {% get_exchange_rates %}
+
+</aside>
