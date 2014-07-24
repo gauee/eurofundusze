@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block news %}
+<h3>{{ news.title }}, {{ news.create_date }}</h3>
+<p>{{ news.descr}}</p>
+{{ news.content | safe }}
+{% endblock %}

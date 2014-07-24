@@ -45,12 +45,21 @@ INSTALLED_APPS = (
     #Custom apps
     'news',
     'widget_exchange_rates',
+    'django_summernote',
     #Zinnia blog
     # 'django_comments',
-    'mptt',
-    'tagging',
-    'zinnia',
+    # 'mptt',
+    # 'tagging',
+    # 'zinnia',
 )
+
+CKEDITOR_UPLOAD_PATH = "uploads/"
+
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'Full',
+    },
+}
 
 SITE_ID = 1
 # THUMBNAIL_HIGH_RESOLUTION = True
@@ -79,14 +88,14 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'django.core.context_processors.request',
     'django.core.context_processors.media',
     'django.core.context_processors.static',
-    'sekizai.context_processors.sekizai',
-    'zinnia.context_processors.version',  # Optional
+    # 'sekizai.context_processors.sekizai',
+    # 'zinnia.context_processors.version',  # Optional
     # 'cms.context_processors.cms_settings',
     # 'cms.context_processors.media',
 )
 
 # TEMPLATE_LOADERS = (
-#     'django.template.loaders.app_directories.load_template_source',
+#     'django.templates.loaders.app_directories.load_template_source',
 # )
 
 # THUMBNAIL_PROCESSORS = (
