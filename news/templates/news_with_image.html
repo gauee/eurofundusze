@@ -1,38 +1,6 @@
+{% load main_news_list %}
 <div id="news_with_image">
-    <a href="/news/{{ top_three_news.0.id }}/">
-        <div class="big_news">
-            <div class="news_timestamp">
-                <div class="wstazka">{{ top_three_news.0.create_date }}</div>
-            </div>
-
-            <div class="news_title">
-                <div class="wstazka">{{ top_three_news.0.title }}</div>
-            </div>
-            <div clas="news_image">
-                <img src="../static/news/news_one.jpg" width="351px" height="261px"/>
-            </div>
-        </div>
-    </a>
-    <a href="/news/{{ top_three_news.1.id }}/">
-        <div class="medium_news">
-            <div class="news_timestamp">
-                <div class="wstazka">{{ top_three_news.1.create_date }}</div>
-            </div>
-            <div class="news_title">
-                <div class="wstazka">{{ top_three_news.1.title }}</div>
-            </div>
-            <img src="/static/news/news_two.jpg" width="201px" height="100%"/>
-        </div>
-    </a>
-    <a href="/news/{{ top_three_news.2.id }}/">
-        <div class="medium_news">
-            <div class="news_timestamp">
-                <div class="wstazka">{{ top_three_news.2.create_date }}</div>
-            </div>
-            <div class="news_title">
-                <div class="wstazka">{{ top_three_news.2.title }}</div>
-            </div>
-            <img src="/static/news/news_three.jpg" width="201px" height="100%"/>
-        </div>
-    </a>
+    {% get_big_news top_three_news.0 %}
+    {% get_medium_news top_three_news.1 %}
+    {% get_medium_news top_three_news.2 %}
 </div>

@@ -12,4 +12,9 @@ def get_main_news_list():
 
 
 @register.inclusion_tag('big_news.html')
-def get_big_news():
+def get_big_news(big_news):
+    return {'big_news':big_news}
+
+@register.inclusion_tag('medium_news.html')
+def get_medium_news(medium_news):
+    return {'medium_news':medium_news}
