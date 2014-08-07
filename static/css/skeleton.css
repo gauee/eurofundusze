@@ -1,0 +1,81 @@
+html {
+    background-color: #FFFFEC;
+    font-family:sans-serif;
+    background-image: url('../images/background.png');
+}
+
+#container{
+    clear: both;
+    width: 1024px;
+    padding: 10px;
+    background-color: #FFFFEC;
+    border-right: 1px solid #2790B0;
+    border-left: 1px solid #2790B0;
+    box-shadow: 0 20px 30px 10px #FFFFEC;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+}
+
+
+.center-block{
+    width: 980px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#login-panel{
+    width: 110%;
+    height: 20px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: -5%;
+    z-index: 9999;
+}
+
+#login-panel .center-block{
+    text-align: right;
+}
+
+#login-panel a{
+    color: #aaaaaa;
+    text-decoration: none;
+}
+
+#login-panel a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
+
+main {
+    width: 650px;
+    padding: 20px;
+    display:table-cell;
+}
+
+main a{
+    color: #333333;
+    text-decoration: none;
+}
+
+main a:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+
+aside{
+    width: 300px;
+    display: table-cell;
+    text-align: left;
+    border-left: 1px dotted #2790B0;
+    margin: 0 auto;
+}
+
+aside table{
+    margin: 0 auto;
+}
+
+

@@ -41,12 +41,14 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'django.contrib.comments',
+    'mptt',
+    'tagging',
+    'zinnia',
 
-    #Custom apps
-    'news',
+    # Custom apps
     'widget_exchange_rates',
-    'django_summernote',
-    #Zinnia blog
+    'utils',
+    # Zinnia blog
     # 'django_comments',
     # 'mptt',
     # 'tagging',
@@ -95,15 +97,15 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 )
 
 # TEMPLATE_LOADERS = (
-#     'django.templates.loaders.app_directories.load_template_source',
+# 'django.templates.loaders.app_directories.load_template_source',
 # )
 
 # THUMBNAIL_PROCESSORS = (
 #     'easy_thumbnails.processors.colorspace',
 #     'easy_thumbnails.processors.autocrop',
 #     'easy_thumbnails.processors.scale_and_crop',
-    # 'filer.thumbnail_processors.scale_and_crop_with_subject_location',
-    # 'easy_thumbnails.processors.filters',
+# 'filer.thumbnail_processors.scale_and_crop_with_subject_location',
+# 'easy_thumbnails.processors.filters',
 # )
 
 # SOUTH_MIGRATION_MODULES = {

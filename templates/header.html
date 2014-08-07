@@ -1,0 +1,22 @@
+{% load i18n staticfiles %}
+<header xmlns="http://www.w3.org/1999/html">
+    <div id="banner">
+
+    </div>
+    <nav>
+        <ul>
+            <a href="/">
+                <li>Strona Główna</li>
+            </a>
+            <a href="/">
+                <li>Kontakt</li>
+            </a>
+        </ul>
+    </nav>
+    <div id="right-nav">
+        <form method="get" action="/blog/search">
+                <input type="text" name="pattern" placeholder="Szukaj" value=""/>
+                <input type="submit" class="submitbutton" value="OK"/>
+        </form>
+    </div>
+</header>

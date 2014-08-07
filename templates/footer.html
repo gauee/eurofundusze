@@ -1,0 +1,29 @@
+{% load tags_utils zinnia_tags i18n %}
+<footer>
+    <div id="footer-headlines">
+        <div class="center-block">
+            {% make_list "Kategorie" "Przydatne Linki" "Partnerzy" as headlines %}
+            {% for i in headlines %}
+            <div class="footer-col">
+                {{ i }}:
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div id="footer-content">
+        <div class="center-block">
+            <div id="footer-shortcuts" class="footer-block">
+                <div class="footer-col">
+                    {% get_categories_tree "custom_zinnia/categories_list.html" %}
+                </div>
+            </div>
+            <div id="footer-extras" class="footer-block">
+                <h5>Tags</h5>
+                {% get_tag_cloud 1 %}
+            </div>
+            <div id="footer-copyrights" class="footer-block">
+                Copyright © 2014 <a href="http://www.eurofundusze.pl">Eurofundusze</a> Powered by Gauee
+            </div>
+        </div>
+    </div>
+</footer>

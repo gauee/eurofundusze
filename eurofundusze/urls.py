@@ -1,12 +1,32 @@
 from django.conf.urls import patterns, include, url
 from django.contrib import admin
+from django.conf import settings
 
 admin.autodiscover()
 
 urlpatterns = patterns('',
                        # Examples:
-                       url(r'^$', 'eurofundusze.views.index'),
+                       # static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT),
+                       url(r'^media/(?P<path>.*)$', 'django.views.static.serve', {
+                           'document_root': settings.MEDIA_ROOT, }),
                        url(r'^admin/', include(admin.site.urls)),
-                       url(r'^news/', include('news.urls')),
-                       (r'^summernote/', include('django_summernote.urls')),
+
+                       # Zinnia
+                       url(r'^$', include('zinnia.urls')),
+                       url(r'^', include('zinnia.urls.capabilities')),
+                       url(r'^search/', include('zinnia.urls.search')),
+                       url(r'^sitemap/', include('zinnia.urls.sitemap')),
+                       url(r'^trackback/', include('zinnia.urls.trackback')),
+                       url(r'^blog/tags/', include('zinnia.urls.tags')),
+                       url(r'^blog/feeds/', include('zinnia.urls.feeds')),
+                       url(r'^blog/random/', include('zinnia.urls.random')),
+                       url(r'^blog/authors/', include('zinnia.urls.authors')),
+                       url(r'^blog/categories/', include('zinnia.urls.categories')),
+                       url(r'^blog/comments/', include('zinnia.urls.comments')),
+                       url(r'^blog/', include('zinnia.urls.entries')),
+                       url(r'^blog/', include('zinnia.urls.archives')),
+                       url(r'^blog/', include('zinnia.urls.shortlink')),
+                       url(r'^blog/', include('zinnia.urls.quick_entry')),
 )
+
+
