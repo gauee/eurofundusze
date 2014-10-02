@@ -3,12 +3,21 @@
 <html xml:lang="{{ LANGUAGE_CODE }}" lang="{{ LANGUAGE_CODE }}" version="-//W3C//DTD XHTML 1.1//EN"
       xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Eurofundusze By Gauee - {% block title %}{% endblock title %}
+    <title>Eurofundusze - {% block title %}{% endblock title %}
         {% block title-page %}{% endblock title-page %}
     </title>
+    <link rel="stylesheet" type="text/css" media="screen, projection" href="{% static 'css/content.css' %}"/>
     <link rel="stylesheet" type="text/css" media="screen, projection" href="{% static 'css/skeleton.css' %}"/>
     <link rel="stylesheet" type="text/css" media="screen, projection" href="{% static 'css/skeleton-header.css' %}"/>
     <link rel="stylesheet" type="text/css" media="screen, projection" href="{% static 'css/skeleton-footer.css' %}"/>
+    <link rel="stylesheet" type="text/css" media="screen, projection" href="{% static 'css/zinnia-paginator.css' %}"/>
+    <meta name="google-site-verification" content="S0OSFOazDCJr0cUudP90QgsdwUStiiQG0sPPxnI76lk"/>
+    <meta charset="UTF-8">
+    <meta name="description"
+          content="Portal internetowy dotyczący funduszy europejskich (eurofunduszy). Pisanie projektów unijnych, na dofinansowanie dla firm i małych przedsiębiorców w różnych regionów polski. System zleceń projektów biznesowych.">
+    <meta name="keywords"
+          content="Eurofundusze, fundusze europejskie, dofinansowanie, inwestycja, przedswiębiorca, unia, projekt, biznes, firma, infrastruktura, pożyczka, zlecenie, realizacja">
+    <meta name="author" content="Łukasz Pastuszyński, Damian Gałka">
 </head>
 <body>
 <div id="login-panel">
@@ -20,35 +29,12 @@
 
 <div id="container">
     {% include "header.html" %}
-
     <main>
-        <div id="content" class="hfeed">
-            {% block content %}
-            <div class="links">
-                <h2>{% trans "Useful links" %}</h2>
-                <ul>
-                    <li>
-                        <a href="{% url 'zinnia:entry_archive_index' %}" title="{% trans " Weblog index" %}">
-                        {% trans "Weblog index" %}
-                        </a>
-                    </li>
-                    <li>
-                        <a href="{% url 'zinnia:sitemap' %}" title="{% trans " Sitemap" %}">
-                        {% trans "Sitemap" %}
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="search">
-                <h2>{% trans "Search" %}</h2>
-                {% include "zinnia/tags/search_form.html" %}
-            </div>
-            {% endblock content %}
-        </div>
+        {% block content %}
+        {% endblock content %}
     </main>
     {% include "aside.html" %}
 </div>
-
 {% include "footer.html" %}
 
 </body>

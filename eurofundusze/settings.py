@@ -28,6 +28,7 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
+ZINNIA_PAGINATION=3
 
 # Application definition
 
@@ -40,7 +41,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.admin',
-    'django.contrib.comments',
+    # 'django.contrib.comments',
     'mptt',
     'tagging',
     'zinnia',
@@ -121,13 +122,17 @@ WSGI_APPLICATION = 'eurofundusze.wsgi.application'
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
 
 DATABASES = {
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.postgresql_psycopg2',
+    #     'NAME': 'eurofundusze_db',
+    #     'USER': 'gauee',
+    #     'PASSWORD': 'gauee',
+    #     'HOST': 'localhost',
+    #     'PORT': '',
+    # }
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'eurofundusze_db',
-        'USER': 'gauee',
-        'PASSWORD': 'gauee',
-        'HOST': 'localhost',
-        'PORT': '',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'eurofundusze.db',
     }
 }
 
@@ -184,11 +189,20 @@ LANGUAGES = [
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
+     'formatters': {
+        'verbose': {
+            'format': '%(levelname)s %(asctime)s %(module)s %(process)d %(thread)d %(message)s'
+        },
+        'simple': {
+            'format': '%(levelname)s %(message)s'
+        },
+    },
     'handlers': {
         'file': {
             'level': 'DEBUG',
             'class': 'logging.FileHandler',
             'filename': './logs/debug.log',
+            'formatter': 'verbose',
         },
     },
     'loggers': {

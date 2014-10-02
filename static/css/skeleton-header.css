@@ -54,7 +54,7 @@ nav a{
 }
 
 nav li:hover{
-    border-bottom: 3px solid #2790B0;
+    border-bottom: 2px solid #f69421;
 }
 
 #right-nav{
@@ -66,6 +66,15 @@ nav li:hover{
 }
 
 #right-nav form input[type=submit] {
+    display: none;
+}
+
+#right-nav p{
+    padding: 0;
+    margin: 0;
+}
+
+#right-nav a{
     display: none;
 }
 

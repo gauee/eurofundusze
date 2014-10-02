@@ -1,6 +1,7 @@
 from django.conf.urls import patterns, include, url
 from django.contrib import admin
 from django.conf import settings
+from . import views
 
 admin.autodiscover()
 
@@ -10,9 +11,11 @@ urlpatterns = patterns('',
                        url(r'^media/(?P<path>.*)$', 'django.views.static.serve', {
                            'document_root': settings.MEDIA_ROOT, }),
                        url(r'^admin/', include(admin.site.urls)),
+                       url(r'^contact/$',views.contact),
 
                        # Zinnia
                        url(r'^$', include('zinnia.urls')),
+                       url(r'^comments/', include('django.contrib.comments.urls')),
                        url(r'^', include('zinnia.urls.capabilities')),
                        url(r'^search/', include('zinnia.urls.search')),
                        url(r'^sitemap/', include('zinnia.urls.sitemap')),

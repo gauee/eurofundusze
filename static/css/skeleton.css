@@ -1,20 +1,21 @@
 html {
-    background-color: #FFFFEC;
+    background-color: #E6E5E4;
     font-family:sans-serif;
-    background-image: url('../images/background.png');
+    background-image: url('../images/background_logo.png');
+    color: #000000;
 }
 
 #container{
     clear: both;
     width: 1024px;
     padding: 10px;
-    background-color: #FFFFEC;
-    border-right: 1px solid #2790B0;
-    border-left: 1px solid #2790B0;
-    box-shadow: 0 20px 30px 10px #FFFFEC;
+    background-color: #F7F1EC;
+    border-right: 2px solid #2790B0;
+    border-left: 2px solid #2790B0;
+    box-shadow: 0 20px 30px 10px #4E4D4A;
     margin: 0 auto;
     position: relative;
-    top: 20px;
+    top: 10px;
 }
 
 

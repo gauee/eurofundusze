@@ -1,0 +1,23 @@
+#paggination{
+    width: 100%;
+    float: none;
+    display: flex;
+    text-align: center;
+}
+ul.paginator{
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+ul.paginator li{
+    float:left;
+    padding: 10px 0 0px 0;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+}
+
+#paggination #current_page{
+    font-size: 20px;
+}
