@@ -1,0 +1,42 @@
+#dynamic_menu{
+    margin: 0 auto;
+    width: 250px;
+    border: 1px solid black;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.ani{
+    margin-top:2px;
+    margin-bottom:2px;
+    height: 20px;
+    background-color:transparent;
+    transition: height 10s;
+    -webkit-transition: height 10s;
+    display: block;
+}
+
+input:checked + .ani{
+    height: auto;
+}
+
+.ani div{
+    display: none;
+}
+
+input:checked + .ani div{
+    display: block;
+}
+
+
+
+#dynamic_menu input{
+    display: none;
+}
+
+#dynamic_menu .ani h4{
+    margin: 0;
+    text-align: center;
+    background-color: rgb(241, 144, 20);
+}

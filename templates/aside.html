@@ -1,9 +1,36 @@
 {% load widget_exchange_rates %}
 <aside>
-    {% get_exchange_rates %}
 
-    <div id="cinkciarzPlWidget"></div>
-<script type="text/javascript" src="http://cinkciarz.pl/widget/cinkciarz.widget.js"></script>
+    <div id="dynamic_menu">
+        <form>
+            <input type="radio" name="menus" id="elem_1"/>
+            <label class="ani" for="elem_1">
+                <h4>Kursy NBP</h4>
+
+                <div>
+                    {% get_exchange_rates %}
+                </div>
+            </label>
+            <input type="radio" name="menus" id="elem_2" checked/>
+            <label class="ani" for="elem_2">
+                <h4>Kursy Cinkciarz</h4>
+
+                <div id="cinkciarzPlWidget" style="margin: 0;"></div>
+                <script type="text/javascript" src="http://cinkciarz.pl/widget/cinkciarz.widget.js"></script>
+            </label>
+            <input type="radio" name="menus" id="elem_3"/>
+            <label class="ani" for="elem_3">
+                <h4>Lokaty</h4>
+            </label>
+
+            <style>
+                div#currenciesRates, div#currenciesRatesNBP {
+                padding: 0px;
+                }
+            </style>
+        </form>
+    </div>
+
 
     {% block sidebar %}
     {% endblock sidebar %}

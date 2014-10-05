@@ -8,3 +8,9 @@ def index(request):
 
 def contact(request):
     return render_to_response('contact.html', locals())
+
+def multimedia(request):
+    return render_to_response('multimedia.html', locals())
+
+def sitemap(request):
+    return render_to_response('sitemap.xml',locals())
