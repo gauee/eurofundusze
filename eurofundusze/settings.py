@@ -28,7 +28,7 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
-ZINNIA_PAGINATION=3
+ZINNIA_PAGINATION=10
 
 # Application definition
 
@@ -41,7 +41,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.admin',
-    'django_comments',
+    'django.contrib.comments',
     'mptt',
     'tagging',
     'zinnia',
@@ -165,7 +165,7 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
 )
 
-MEDIA_ROOT = os.path.join(PROJECT_PATH, "../../media")
+MEDIA_ROOT = os.path.join(PROJECT_PATH, "../media")
 MEDIA_URL = "/media/"
 
 
