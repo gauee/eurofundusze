@@ -123,15 +123,15 @@ WSGI_APPLICATION = 'eurofundusze.wsgi.application'
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
 
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.postgresql_psycopg2',
-    #     'NAME': 'eurofundusze_db',
-    #     'USER': 'gauee',
-    #     'PASSWORD': 'gauee',
-    #     'HOST': 'localhost',
-    #     'PORT': '',
-    # }
     'default': {
+         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+         'NAME': 'euro83_fundusze',
+         'USER': 'gauee',
+         'PASSWORD': 'gauee',
+         'HOST': 'localhost',
+         'PORT': '',
+     },
+    'deploment': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': 'eurofundusze.db',
     }
@@ -165,7 +165,7 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
 )
 
-MEDIA_ROOT = os.path.join(PROJECT_PATH, "../media")
+MEDIA_ROOT = os.path.join(PROJECT_PATH, "../../media")
 MEDIA_URL = "/media/"
 
 
