@@ -49,6 +49,7 @@ INSTALLED_APPS = (
     # Custom apps
     'widget_exchange_rates',
     'utils',
+    'ef_multimedia',
     # Zinnia blog
     # 'django_comments',
     # 'mptt',
