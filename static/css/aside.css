@@ -17,6 +17,16 @@
     display: block;
 }
 
+aside ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+aside li{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 input:checked + .ani{
     height: auto;
 }

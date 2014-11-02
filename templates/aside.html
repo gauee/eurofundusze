@@ -1,37 +1,43 @@
 {% load widget_exchange_rates %}
 <aside>
+    <ul>
+        <li>
+            <div id="dynamic_menu">
+                <form>
+                    <input type="radio" name="menus" id="elem_1"/>
+                    <label class="ani" for="elem_1">
+                        <h4>Kursy NBP</h4>
 
-    <div id="dynamic_menu">
-        <form>
-            <input type="radio" name="menus" id="elem_1"/>
-            <label class="ani" for="elem_1">
-                <h4>Kursy NBP</h4>
+                        <div>
+                            {% get_exchange_rates %}
+                        </div>
+                    </label>
+                    <input type="radio" name="menus" id="elem_2" checked/>
+                    <label class="ani" for="elem_2">
+                        <h4>Kursy Cinkciarz</h4>
 
-                <div>
-                    {% get_exchange_rates %}
-                </div>
-            </label>
-            <input type="radio" name="menus" id="elem_2" checked/>
-            <label class="ani" for="elem_2">
-                <h4>Kursy Cinkciarz</h4>
+                        <div id="cinkciarzPlWidget" style="margin: 0;"></div>
+                        <script type="text/javascript" src="http://cinkciarz.pl/widget/cinkciarz.widget.js"></script>
+                    </label>
+                    <input type="radio" name="menus" id="elem_3"/>
+                    <label class="ani" for="elem_3">
+                        <h4>Lokaty</h4>
+                    </label>
 
-                <div id="cinkciarzPlWidget" style="margin: 0;"></div>
-                <script type="text/javascript" src="http://cinkciarz.pl/widget/cinkciarz.widget.js"></script>
-            </label>
-            <input type="radio" name="menus" id="elem_3"/>
-            <label class="ani" for="elem_3">
-                <h4>Lokaty</h4>
-            </label>
+                    <style>
+                        div#currenciesRates, div#currenciesRatesNBP {
+                        padding: 0px;
+                        }
+                    </style>
+                </form>
+            </div>
+        </li>
 
-            <style>
-                div#currenciesRates, div#currenciesRatesNBP {
-                padding: 0px;
-                }
-            </style>
-        </form>
-    </div>
-
-
+        <li>
+            <a href="//trejdoo.com/362,rejestracja.htm?TokenPartner=b056ca8b44"><img
+                    src="//trejdoo.com/Images/49/Trejdoo/Baner/baner-200-x-200-px---Trejdo.jpeg"/></a>
+        </li>
+    </ul>
     {% block sidebar %}
     {% endblock sidebar %}
 </aside>

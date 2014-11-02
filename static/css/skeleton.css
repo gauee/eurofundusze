@@ -80,3 +80,22 @@ aside table{
 }
 
 
+.entry-header{
+    margin-left: -10px;
+}
+
+.entry-header h2{
+    margin-bottom: 0px;
+}
+
+.entry-header p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.entry_title_categories{
+    margin-top:0px;
+}
+
+
+
