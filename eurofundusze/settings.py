@@ -45,6 +45,7 @@ INSTALLED_APPS = (
     'mptt',
     'tagging',
     'zinnia',
+    'south',
 
     # Custom apps
     'widget_exchange_rates',
