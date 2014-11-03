@@ -5,17 +5,13 @@ register = template.Library()
 
 @register.inclusion_tag('youtube_movies_list.html')
 def get_multimedia_videos():
-    videos = Video_YU.objects.all()
-    print videos
+    videos = Video_YU.objects.order_by('-video_yu_create_time')
 
     titles = []
     iframes = []
     for idx, v in enumerate(videos):
         titles.append(v.video_title)
         iframes.append(v.getIframeUrl())
-
-    print 'Titles',titles
-    print  'Iframes',iframes
 
     elements = []
     idx = 0
@@ -38,8 +34,5 @@ def get_multimedia_videos():
         element = []
         element.append(titles[idx])
         elements.append(element)
-
-    print elements
-
 
     return {'videos':elements}

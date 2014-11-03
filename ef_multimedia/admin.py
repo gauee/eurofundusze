@@ -6,7 +6,7 @@ logger = logging.getLogger(__name__)
 
 # Register your models here.
 class AdminVideo_YU(admin.ModelAdmin):
-    fields = ['video_title','video_yu_url']
+    fields = ['video_title','video_yu_url','video_yu_create_time']
     list_display = ('video_title','video_yu_url')
 
 
