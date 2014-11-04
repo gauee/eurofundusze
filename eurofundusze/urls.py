@@ -30,6 +30,7 @@ urlpatterns = patterns('',
                        url(r'^admin/', include(admin.site.urls)),
                        url(r'^contact/$',views.contact),
                        url(r'^multimedia/$',views.multimedia),
+                       url(r'^privacy_policy/$',views.privacy_policy),
 
                        # Zinnia
                        url(r'^', include('zinnia.urls', namespace='zinnia')),

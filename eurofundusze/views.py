@@ -14,3 +14,6 @@ def multimedia(request):
 
 def sitemap(request):
     return render_to_response('sitemap.xml',locals())
+
+def privacy_policy(request):
+    return render_to_response('privacy_policy.html',locals())
