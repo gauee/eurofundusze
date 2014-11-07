@@ -10,11 +10,7 @@
   <loc>http://eurofundusze.eu/</loc>
   <priority>1.00</priority>
 </url>
-<url>
-  <loc>http://eurofundusze.eu/admin/</loc>
-  <lastmod>2014-10-12T19:56:23+00:00</lastmod>
-  <priority>0.00</priority>
-</url>
+
 <url>
   <loc>http://eurofundusze.eu/multimedia/</loc>
   <priority>0.80</priority>
@@ -24,7 +20,7 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/2014/10/12/nowe-schetynowki-w-swiekokrzyskim/</loc>
+  <loc>http://eurofundusze.eu/blog/2014/11/06/punkty-informacyjne/</loc>
   <priority>0.80</priority>
 </url>
 <url>
@@ -32,27 +28,35 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/categories/infrastruktura-i-srodowisko/</loc>
+  <loc>http://eurofundusze.eu/blog/categories/regionalne-programy-operacyjne/</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/tags/Narodowy%20Program%20Przebudowy%20Dr%C3%B3g%20Lokalnych/</loc>
+  <loc>http://eurofundusze.eu/blog/tags/informacyjne/</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/tags/drogi/</loc>
+  <loc>http://eurofundusze.eu/blog/tags/punkty/</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/tags/inwestycje%20drogowe/</loc>
+  <loc>http://eurofundusze.eu/blog/2014/11/06/inteligentny-rozwoj/</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/tags/schcetyn%C3%B3wki/</loc>
+  <loc>http://eurofundusze.eu/blog/categories/inteligentny-rozwoj/</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/2014/10/11/polskie-oze/</loc>
+  <loc>http://eurofundusze.eu/blog/tags/Inteligentny%20Rozw%C3%B3j/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/PARP/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/11/06/ozedukacja/</loc>
   <priority>0.80</priority>
 </url>
 <url>
@@ -60,7 +64,7 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/categories/regionalne-programy-operacyjne/</loc>
+  <loc>http://eurofundusze.eu/blog/tags/NFO%C5%9AiGW/</loc>
   <priority>0.80</priority>
 </url>
 <url>
@@ -68,47 +72,111 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/tags/eurofundusze/</loc>
+  <loc>http://eurofundusze.eu/blog/2014/11/06/nowa-inwestycja-oze/</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/tags/instalacje%20oze/</loc>
+  <loc>http://eurofundusze.eu/blog/categories/euro-pozyczki/</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/tags/rentowno%C5%9B%C4%87%20przedsi%C4%99wzi%C4%99cia/</loc>
+  <loc>http://eurofundusze.eu/blog/categories/regionalne-programy-operacyjne/rpo-zachodniopomorskie/</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/tags/ustawa%20o%20oze/</loc>
+  <loc>http://eurofundusze.eu/blog/tags/Bank/</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/tags/wys%C5%82uchanie%20publiczne/</loc>
+  <loc>http://eurofundusze.eu/blog/tags/Ochrony/</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/2014/10/10/eurofundusze/</loc>
+  <loc>http://eurofundusze.eu/blog/tags/%C5%9Arodowiska/</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/tags/2014-2020/</loc>
+  <loc>http://eurofundusze.eu/blog/2014/11/06/2014-2020-spotkania-informacyjne/</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/tags/RPO/</loc>
+  <loc>http://eurofundusze.eu/blog/categories/regionalne-programy-operacyjne/rpo-malopolskie/</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/tags/cel%20inwestycyjny%20w%C5%82adze%20wojew%C3%B3dztw/</loc>
+  <loc>http://eurofundusze.eu/blog/tags/konsultacje/</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/tags/negocjacje/</loc>
+  <loc>http://eurofundusze.eu/blog/tags/rpo%20ma%C5%82opolska/</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/tags/programowanie/</loc>
+  <loc>http://eurofundusze.eu/blog/2014/11/06/eurofundusze-2014-2020-konsultacje/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/categories/regionalne-programy-operacyjne/rpo-slaskie/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/rpo%20%C5%9Bl%C4%85skie/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/11/06/eurofundusze-2014-2020-spotkania-informacyjne/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/categories/regionalne-programy-operacyjne/rpo-lodzkie/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/rpo%20%C5%82%C3%B3dzkie/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/spotkanie%20informacyjne/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/11/05/decyzja-rpp/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/nbp/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/rpp/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/11/05/online-marketing/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/categories/wiedza-edukacja-rozwoj/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/ONLINE%20MARKETING/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/kongres/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/11/05/think-big/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/konkurs/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/think%20big/</loc>
   <priority>0.80</priority>
 </url>
 <url>
@@ -120,7 +188,7 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/?page=5</loc>
+  <loc>http://eurofundusze.eu/?page=7</loc>
   <priority>0.80</priority>
 </url>
 <url>
@@ -128,11 +196,11 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/categories/euro-pozyczki/</loc>
+  <loc>http://eurofundusze.eu/blog/categories/infrastruktura-i-srodowisko/</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/categories/inteligentny-rozwoj/</loc>
+  <loc>http://eurofundusze.eu/blog/categories/parp/</loc>
   <priority>0.80</priority>
 </url>
 <url>
@@ -164,14 +232,6 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/categories/regionalne-programy-operacyjne/rpo-lodzkie/</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://eurofundusze.eu/blog/categories/regionalne-programy-operacyjne/rpo-malopolskie/</loc>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>http://eurofundusze.eu/blog/categories/regionalne-programy-operacyjne/rpo-mazowieckie/</loc>
   <priority>0.80</priority>
 </url>
@@ -192,10 +252,6 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/categories/regionalne-programy-operacyjne/rpo-slaskie/</loc>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>http://eurofundusze.eu/blog/categories/regionalne-programy-operacyjne/rpo-swietokrzyskie/</loc>
   <priority>0.80</priority>
 </url>
@@ -208,11 +264,11 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/categories/regionalne-programy-operacyjne/rpo-zachodniopomorskie/</loc>
+  <loc>http://eurofundusze.eu/blog/tags/2014-2020/</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/categories/wiedza-edukacja-rozwoj/</loc>
+  <loc>http://eurofundusze.eu/blog/tags/akademia%20e-biznesu/</loc>
   <priority>0.80</priority>
 </url>
 <url>
@@ -220,7 +276,87 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>http://eurofundusze.eu/blog/tags/cel%20inwestycyjny%20w%C5%82adze%20wojew%C3%B3dztw/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/CPS/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/doing%20business/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>http://eurofundusze.eu/blog/tags/dotacje/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/drogi/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/DTF/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/EKOKREATYWNI/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/eko%20konferencja/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/eurofundusze/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/Europejskie%20Przedsi%C4%99biorstwo/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/Europejski%20Fundusz%20na%20rzecz%20Inwestycji/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/e-us%C5%82uga/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/e-us%C5%82ugi%20publiczne/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/fundusze%20europejskie/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/gpi%20%C5%9Bwi%C4%99tokrzyskie/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/i/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/infrastruktura/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/instalacje%20oze/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/internet/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/inwestycje%20drogowe/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/j%C4%99zyk/</loc>
   <priority>0.80</priority>
 </url>
 <url>
@@ -248,7 +384,23 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/tags/NFO%C5%9AiGW/</loc>
+  <loc>http://eurofundusze.eu/blog/tags/%C5%81%C3%B3dzkie/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/mazowieckie/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/migowy/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/Narodowy%20Program%20Przebudowy%20Dr%C3%B3g%20Lokalnych/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/negocjacje/</loc>
   <priority>0.80</priority>
 </url>
 <url>
@@ -268,7 +420,35 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>http://eurofundusze.eu/blog/tags/Olsztyn/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/PKB/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/podlaskie/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/Polska/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/Pomorskie/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>http://eurofundusze.eu/blog/tags/po%C5%BCyczki/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/PO%20PC/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/programowanie/</loc>
   <priority>0.80</priority>
 </url>
 <url>
@@ -284,6 +464,14 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>http://eurofundusze.eu/blog/tags/projekt%C3%B3w/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/PROSUMENT/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>http://eurofundusze.eu/blog/tags/przedsi%C4%99biorca/</loc>
   <priority>0.80</priority>
 </url>
@@ -296,15 +484,119 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>http://eurofundusze.eu/blog/tags/raport%20banku%20%C5%9Bwiatowego/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/rentowno%C5%9B%C4%87%20przedsi%C4%99wzi%C4%99cia/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/rpo/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/RPO/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/RPO%20Lubelskie/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/RPO%20Opolskie/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/RPO%20Podlaskie/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/rpo%20%C5%9Bwi%C4%99tokrzyskie/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/rpo%20zachodniopomorskie/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>http://eurofundusze.eu/blog/tags/RPP/</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/tags/spotkanie%20informacyjne/</loc>
+  <loc>http://eurofundusze.eu/blog/tags/schcetyn%C3%B3wki/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/seminarium/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/sieci%20szerokopasmowe/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/Smolna/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/spotkanie/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/START-UP/</loc>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://eurofundusze.eu/blog/tags/stopy%20procentowe/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/synergia%20w%20biznesie/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/szkolenia/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/%C5%9Bladem/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/%C5%9Bl%C4%85skie/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/%C5%9Brodowisko/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/%C5%9Bwi%C4%99tokrzyskie/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/%C5%9Bwi%C4%99tokrzystkie/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/unijnych/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/ustawa%20o%20oze/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/warmi%C5%84sko-mazurskie/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/wielkopolskie/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/Wielkopolskie/</loc>
   <priority>0.80</priority>
 </url>
 <url>
@@ -316,19 +608,35 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>http://eurofundusze.eu/blog/tags/Wschodnia/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>http://eurofundusze.eu/blog/tags/wydatki/</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/2014/08/31/dotacje/</loc>
+  <loc>http://eurofundusze.eu/blog/tags/wys%C5%82uchanie%20publiczne/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/14/eurofundusze-spotkanie-informacyjne/</loc>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/2014/10/08/stopy-o-50-pp-w-dol/</loc>
+  <loc>http://eurofundusze.eu/blog/2014/11/01/polska-wschodnia-nabory-w-ii-polowie-2015/</loc>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/2014/10/07/31-mld-euro-dla-rpo/</loc>
+  <loc>http://eurofundusze.eu/blog/2014/10/22/rpo-pomorskie/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/10/eurofundusze/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/20/eurofundusze-2014-2020/</loc>
   <priority>0.64</priority>
 </url>
 <url>
@@ -340,7 +648,23 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/authors/luke/?page=5</loc>
+  <loc>http://eurofundusze.eu/blog/authors/luke/?page=7</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/19/eurofundusze-2014-2020-czas-negocjacji/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/16/17-mln-dla-oze/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/11/polskie-oze/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/07/31-mld-euro-dla-rpo/</loc>
   <priority>0.64</priority>
 </url>
 <url>
@@ -348,23 +672,15 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/categories/infrastruktura-i-srodowisko/?page=2</loc>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>http://eurofundusze.eu/blog/2014/09/07/koszty-kwalifikowalne/</loc>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/2014/08/31/eurofundusze/</loc>
+  <loc>http://eurofundusze.eu/blog/2014/09/03/definicje-przedsiebiorstw/</loc>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/2014/10/06/mobilny-punkt-informacyjny/</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://eurofundusze.eu/blog/2014/10/06/program-wsparcia-inwestycji/</loc>
+  <loc>http://eurofundusze.eu/blog/2014/08/31/dotacje/</loc>
   <priority>0.64</priority>
 </url>
 <url>
@@ -372,15 +688,163 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/categories/regionalne-programy-operacyjne/?page=3</loc>
+  <loc>http://eurofundusze.eu/blog/2014/10/12/nowe-schetynowki-w-swiekokrzyskim/</loc>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/tags/eurofundusze/?page=2</loc>
+  <loc>http://eurofundusze.eu/blog/2014/10/25/eurofundusze-2014-2020-spotkania-informacyjne/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/11/04/z-cyklu-europejskie-przedsiebiorstwo/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/25/b2b-z-tureckimi-przedsiebiorcami/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/20/internetowe-narzedzia-promocji-w-eksporcie/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/27/eurofundusze-2014-2020-spotkanie-informacyjne/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/22/eurofundusze-spotkanie-informacyjne/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/14/eurofundusze/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/22/eurofundusze-2014-2020-spotkanie-informacyjne/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/27/wspolpraca-miedzynarodowa-w-perspektywie-2014-2020/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/11/03/ekokreatywni/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/11/01/prosument/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/24/eko-konferencja/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/06/program-wsparcia-inwestycji/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/23/eurofundusze-spotkanie-informacyjne/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/13/unijny-program-inwestycji/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/08/stopy-o-50-pp-w-dol/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/11/03/eurofundusze-2014-2020-spotkania-informacyjne/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/20/eurofundusze-2014-2020-spotkanie-informacyjne/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/11/01/polska-na-32-miejscu/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/13/rpo-slaskie/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/11/04/eurofundusze-2014-2020-spotkania/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/22/eurofundusze-malopolska-spotkanie-informacyjne/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/14/eurofundusze-spotkanie/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/30/euro-konsultacje-w-jezyku-migowym/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/23/eurofundusze-2014-2020-spotkanie-informacyjne/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/22/rpo-mazowieckie/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/15/konkurs-sladem-projektow-unijnych/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/30/eurofundusze-2014-2020-spotkanie-informacyjne/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/29/eurofundusze-2014-2020-spotkania/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/13/rpo-lodzkie/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/29/eurofundusze-2014-2020-spotkania-informacyjne/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/20/eurofundusze/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/spotkanie%20informacyjne/?page=2</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/30/fundusze-europejskie/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/15/start-upowa-synergia/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/11/04/eurofundusze-2014-2020-spotkania-informacyjne/</loc>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://eurofundusze.eu/blog/2014/10/06/Punkt-informacyjny/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/11/04/szkolenia-w-cps/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/31/polska-cyfrowa/</loc>
   <priority>0.64</priority>
 </url>
 <url>
@@ -392,6 +856,26 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>http://eurofundusze.eu/blog/2014/10/29/konferencja-zaproszenie/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/?page=5</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/06/mobilny-punkt-informacyjny/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/08/31/eurofundusze/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/?page=6</loc>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>http://eurofundusze.eu/blog/2014/?page=2</loc>
   <priority>0.64</priority>
 </url>
@@ -400,7 +884,7 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/2014/?page=5</loc>
+  <loc>http://eurofundusze.eu/blog/2014/?page=7</loc>
   <priority>0.64</priority>
 </url>
 <url>
@@ -416,12 +900,28 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/2014/09/03/definicje-przedsiebiorstw/</loc>
+  <loc>http://eurofundusze.eu/blog/2014/11/</loc>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://eurofundusze.eu/admin/zinnia/entry/add/</loc>
-  <lastmod>2014-10-12T19:56:37+00:00</lastmod>
+  <lastmod>2014-11-07T18:22:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/22/eurofundusze-spotkanie/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/23/gielda-produktow-finansowych/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/17/regionalna-strategia-innowacji/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/eurofundusze/?page=2</loc>
   <priority>0.64</priority>
 </url>
 <url>
@@ -433,7 +933,11 @@
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/categories/infrastruktura-i-srodowisko/?page=1</loc>
+  <loc>http://eurofundusze.eu/blog/authors/luke/?page=5</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/authors/luke/?page=6</loc>
   <priority>0.51</priority>
 </url>
 <url>
@@ -441,7 +945,7 @@
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/tags/eurofundusze/?page=1</loc>
+  <loc>http://eurofundusze.eu/blog/tags/spotkanie%20informacyjne/?page=1</loc>
   <priority>0.51</priority>
 </url>
 <url>
@@ -450,6 +954,14 @@
 </url>
 <url>
   <loc>http://eurofundusze.eu/blog/2014/?page=4</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/?page=5</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/?page=6</loc>
   <priority>0.51</priority>
 </url>
 <url>
@@ -470,6 +982,10 @@
 </url>
 <url>
   <loc>http://eurofundusze.eu/blog/2014/10/?page=3</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/?page=5</loc>
   <priority>0.51</priority>
 </url>
 <url>
@@ -497,6 +1013,94 @@
   <priority>0.51</priority>
 </url>
 <url>
+  <loc>http://eurofundusze.eu/blog/2014/10/13/</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/14/</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/15/</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/16/</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/17/</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/19/</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/20/</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/22/</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/23/</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/24/</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/25/</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/27/</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/29/</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/30/</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/10/31/</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/11/?page=2</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/11/01/</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/11/03/</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/11/04/</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/11/05/</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/11/06/</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/tags/eurofundusze/?page=1</loc>
+  <priority>0.51</priority>
+</url>
+<url>
   <loc>http://eurofundusze.eu/blog/2014/week/34/</loc>
   <priority>0.41</priority>
 </url>
@@ -509,7 +1113,7 @@
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/2014/10/06/?page=2</loc>
+  <loc>http://eurofundusze.eu/blog/2014/10/?page=4</loc>
   <priority>0.41</priority>
 </url>
 <url>
@@ -517,19 +1121,55 @@
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/2014/10/06/?page=1</loc>
+  <loc>http://eurofundusze.eu/blog/2014/week/41/</loc>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/week/42/</loc>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/week/43/</loc>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/11/?page=1</loc>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/week/44/</loc>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/week/41/?page=2</loc>
   <priority>0.33</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/2014/week/40/?page=2</loc>
+  <loc>http://eurofundusze.eu/blog/2014/week/42/?page=2</loc>
   <priority>0.33</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/2014/week/40/?page=3</loc>
+  <loc>http://eurofundusze.eu/blog/2014/week/43/?page=2</loc>
   <priority>0.33</priority>
 </url>
 <url>
-  <loc>http://eurofundusze.eu/blog/2014/week/40/?page=1</loc>
+  <loc>http://eurofundusze.eu/blog/2014/week/44/?page=2</loc>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/week/41/?page=1</loc>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/week/42/?page=1</loc>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/week/43/?page=1</loc>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>http://eurofundusze.eu/blog/2014/week/44/?page=1</loc>
   <priority>0.26</priority>
 </url>
 </urlset>
