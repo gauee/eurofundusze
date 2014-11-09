@@ -1,41 +1,16 @@
 {% load widget_exchange_rates %}
 <aside>
     <ul>
+        <li style="font-size: 0px; margin-top: -20px;">.</li>
         <li>
-            <div id="dynamic_menu">
-                <form>
-                    <input type="radio" name="menus" id="elem_1"/>
-                    <label class="ani" for="elem_1">
-                        <h4>Kursy NBP</h4>
-
-                        <div>
-                            {% get_exchange_rates %}
-                        </div>
-                    </label>
-                    <input type="radio" name="menus" id="elem_2" checked/>
-                    <label class="ani" for="elem_2">
-                        <h4>Kursy Cinkciarz</h4>
-
-                        <div id="cinkciarzPlWidget" style="margin: 0;"></div>
-                        <script type="text/javascript" src="http://cinkciarz.pl/widget/cinkciarz.widget.js"></script>
-                    </label>
-                    <input type="radio" name="menus" id="elem_3"/>
-                    <label class="ani" for="elem_3">
-                        <h4>Lokaty</h4>
-                    </label>
-
-                    <style>
-                        div#currenciesRates, div#currenciesRatesNBP {
-                        padding: 0px;
-                        }
-                    </style>
-                </form>
-            </div>
+            <iframe src="http://wx.trejdoo.com/widgets/eurofundusze/frame.html"
+                    width="300" height="250" style="background-color:white;border:1px solid #ddd;overflow:hidden"
+                    frameborder="0" seamless></iframe>
         </li>
-
         <li>
-            <a href="//trejdoo.com/362,rejestracja.htm?TokenPartner=b056ca8b44"><img
-                    src="//trejdoo.com/Images/49/Trejdoo/Baner/baner-200-x-200-px---Trejdo.jpeg"/></a>
+
+            <div id="cinkciarzPlWidget" style="margin: 0;"></div>
+            <script type="text/javascript" src="http://cinkciarz.pl/widget/cinkciarz.widget.js"></script>
         </li>
     </ul>
     {% block sidebar %}
