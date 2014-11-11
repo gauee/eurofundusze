@@ -1,0 +1,119 @@
+[
+   {
+      "pk":1,
+      "model":"utils.usefullink",
+      "fields":{
+         "href":"http://www.funduszeeuropejskie.gov.pl/",
+         "name":"Fundusze Europejskie",
+         "order":1
+      }
+   },
+   {
+      "pk":2,
+      "model":"utils.usefullink",
+      "fields":{
+         "href":"http://www.mir.gov.pl/",
+         "name":"Ministerstwo Infrastruktury i Rozwoju",
+         "order":2
+      }
+   },
+   {
+      "pk":3,
+      "model":"utils.usefullink",
+      "fields":{
+         "href":"http://www.mg.gov.pl/",
+         "name":"Ministerstwo Gospodarki",
+         "order":3
+      }
+   },
+   {
+      "pk":4,
+      "model":"utils.usefullink",
+      "fields":{
+         "href":"http://www.nbp.pl/",
+         "name":"Narodowy Bank Polski",
+         "order":4
+      }
+   },
+   {
+      "pk":5,
+      "model":"utils.usefullink",
+      "fields":{
+         "href":"http://www.parp.gov.pl/",
+         "name":"PARP",
+         "order":5
+      }
+   },
+   {
+      "pk":6,
+      "model":"utils.usefullink",
+      "fields":{
+         "href":"http://www.arp.com.pl/",
+         "name":"Agencja Rozwoju Przemys\u0142u",
+         "order":6
+      }
+   },
+   {
+      "pk":7,
+      "model":"utils.usefullink",
+      "fields":{
+         "href":"http://www.nfosigw.gov.pl/",
+         "name":"Narodowy Fundusz Ochrony \u015arodowiska i Gospodarki Wodnej",
+         "order":7
+      }
+   },
+   {
+      "pk":8,
+      "model":"utils.usefullink",
+      "fields":{
+         "href":"http://www.ncbir.pl/",
+         "name":"Narodowe Centrum Bada\u0144 i Rozwoju",
+         "order":8
+      }
+   },
+   {
+      "pk":9,
+      "model":"utils.usefullink",
+      "fields":{
+         "href":"http://www.kfk.org.pl/",
+         "name":"Krajowy Fundusz Kapita\u0142owy",
+         "order":9
+      }
+   },
+   {
+      "pk":10,
+      "model":"utils.usefullink",
+      "fields":{
+         "href":"http://www.cupt.gov.pl/",
+         "name":"Centrum Unijnych Projekt\u00f3w Transportowych",
+         "order":10
+      }
+   },
+   {
+      "pk":11,
+      "model":"utils.usefullink",
+      "fields":{
+         "href":"http://www.jeremie.com.pl/",
+         "name":"Inicjatywywa Jeremie",
+         "order":11
+      }
+   },
+   {
+      "pk":12,
+      "model":"utils.usefullink",
+      "fields":{
+         "href":"http://www.europarl.europa.eu/portal/pl",
+         "name":"Parlament Europejski",
+         "order":12
+      }
+   },
+   {
+      "pk":13,
+      "model":"utils.usefullink",
+      "fields":{
+         "href":"http://ec.europa.eu/index_pl.htm",
+         "name":"Komisja Europejska",
+         "order":13
+      }
+   }
+]
