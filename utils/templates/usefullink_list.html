@@ -1,0 +1,7 @@
+<ul>
+    {% for usefullink in usefullinks %}
+    <li>
+        <a href="{{ usefullink.href }}">{{ usefullink.name }}</a>
+    </li>
+    {% endfor %}
+</ul>

@@ -1,7 +1,13 @@
 __author__ = 'gauee'
 from django import template
+from utils.models import UsefulLink
 
 register = template.Library()
+
+@register.inclusion_tag('usefullink_list.html')
+def get_usefullinks():
+    usefullinks = UsefulLink.objects.order_by('order')
+    return {'usefullinks':usefullinks}
 
 @register.tag
 def make_list(parser, token):
