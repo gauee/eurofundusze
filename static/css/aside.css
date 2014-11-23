@@ -24,6 +24,7 @@ aside ul{
 
 aside li:first-child{
     background-color: transparent;
+    margin: -40px;
 }
 
 aside li{
