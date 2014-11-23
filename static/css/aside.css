@@ -22,9 +22,15 @@ aside ul{
     padding: 0;
 }
 
+aside li:first-child{
+    background-color: transparent;
+}
+
 aside li{
     text-align: center;
-    margin-bottom: 10px;
+    background: white;
+    width: 330px;
+    padding: 5px;
 }
 
 input:checked + .ani{
