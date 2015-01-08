@@ -1,0 +1,19 @@
+{% extends "skeleton.html" %}
+{% load zinnia_tags i18n staticfiles ef_ads %}
+{% block title %}
+    Ogłoszenia
+{% endblock title %}
+
+{% block content %}
+
+    <div id="ads">
+        <h2>Ogłoszenia</h2>
+        {% get_ads_navigation %}
+        <div id="ads_content">
+            {% block ads_content %}
+            {% endblock ads_content %}
+        </div>
+
+    </div>
+
+{% endblock content %}

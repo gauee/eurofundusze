@@ -1,0 +1,26 @@
+{% extends "ogloszenia.html" %}
+{% load zinnia_tags i18n staticfiles ef_ads %}
+{% block title %}
+    Ogłoszenia
+{% endblock title %}
+
+{% block ads_content %}
+    <div id="offer_list">
+        <table>
+            <tr>
+                {% for h in headlines %}
+                    <td>{{ h }}</td>
+                {% endfor %}
+            </tr>
+
+            {% for offer in offers %}
+                <tr class="clickableRow" onclick="location.href='{{ offer.0 }}'">
+                    {% for o in offer.1 %}
+                        <td>{{ o }}</td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+
+        </table>
+    </div>
+{% endblock ads_content %}

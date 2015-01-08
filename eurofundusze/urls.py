@@ -1,7 +1,23 @@
 from django.conf.urls import patterns, include, url
 from django.contrib import admin
 from django.conf import settings
+from zinnia.sitemaps import TagSitemap
+from zinnia.sitemaps import EntrySitemap
+from zinnia.sitemaps import CategorySitemap
+from zinnia.sitemaps import AuthorSitemap
+
 from . import views
+from sitemaps import Sitemap
+from ef_ads.sitemaps import EmployeeOfferSitemap, EmployerOfferSitemap
+
+
+sitemaps = {'tags': TagSitemap,
+            'blog': EntrySitemap,
+            'authors': AuthorSitemap,
+            'categories': CategorySitemap,
+            'employeeOffers': EmployeeOfferSitemap,
+            'employerOffers': EmployerOfferSitemap,
+            'flatpages': Sitemap(['ef_kontakt', 'ef_multimedia', 'ef_ogloszenia', ]), }
 
 admin.autodiscover()
 
@@ -28,11 +44,15 @@ urlpatterns = patterns('',
                        url(r'^media/(?P<path>.*)$', 'django.views.static.serve', {
                            'document_root': settings.MEDIA_ROOT, }),
                        url(r'^admin/', include(admin.site.urls)),
-                       url(r'^contact/$',views.contact),
-                       url(r'^multimedia/$',views.multimedia),
-                       # url(r'^ogloszenia/',include('ef_ads.urls')),
-                       url(r'^utils/',include('utils.urls')),
-                       url(r'^privacy_policy/$',views.privacy_policy),
+                       url(r'^contact/$', views.contact, name='ef_kontakt'),
+                       url(r'^multimedia/$', views.multimedia, name='ef_multimedia'),
+                       url(r'^ogloszenia/', include('ef_ads.urls')),
+                       url(r'^utils/', include('utils.urls')),
+                       url(r'^privacy_policy/$', views.privacy_policy),
+
+
+                       # Captcha
+                       url(r'^captcha/', include('captcha.urls')),
 
                        # Zinnia
                        url(r'^', include('zinnia.urls', namespace='zinnia')),
@@ -43,3 +63,8 @@ urlpatterns = patterns('',
                        # url(r'', include('social_auth.urls', namespace='social')),
 )
 
+urlpatterns += patterns('django.contrib.sitemaps.views',
+                        url(r'^sitemap.xml$', 'index',
+                            {'sitemaps': sitemaps}),
+                        url(r'^sitemap-(?P<section>.+)\.xml$', 'sitemap',
+                            {'sitemaps': sitemaps}), )

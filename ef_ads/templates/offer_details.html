@@ -1,0 +1,26 @@
+{% extends "ogloszenia.html" %}
+{% load zinnia_tags i18n staticfiles ef_ads %}
+{% block title %}
+    Ogłoszenia
+{% endblock title %}
+
+{% block ads_content %}
+    <div id="offer_details">
+        <table>
+            {% for o in offer %}
+                <tr>
+                    <td>{{ o.0 }}</td>
+                    <td>{{ o.1 }}</td>
+                </tr>
+            {% endfor %}
+            {% if attachment.0 %}
+                <tr>
+                    <td>{{ attachment.0.0 }}</td>
+                    <td><a href="/media/{{ attachment.0.1 }}" target="_blank">
+                        <img src="{% static 'images/attachment.png' %}" width="10%">
+                    </a></td>
+                </tr>
+            {% endif %}
+        </table>
+    </div>
+{% endblock ads_content %}

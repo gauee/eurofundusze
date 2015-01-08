@@ -6,9 +6,56 @@ Kontakt
 
 {% block content %}
 <div id="contact">
+    <div id="contact_form">
+        {% if msg %}<p>{{ msg }}</p> {% endif %}
+
+        <form role="form" action="." method="post">
+            {% csrf_token %}
+            {% if form.non_field_errors %}
+                <p class="error">
+                    {% for error in form.non_field_errors %}
+                        {{ error }}
+                    {% endfor %}
+                </p>
+            {% endif %}
+            <table>
+                {% for field in form %}
+                    <tr>
+                        <div class="form-group">
+                            <td class="left_row">
+                                {{ field.label_tag }}
+                                {% comment %}
+                            {% if field.field.required %}
+                            *
+                            {% endif %}
+                            {% endcomment %}
+                            </td>
+                            <td class="right_row">
+                                {{ field }}
+                                {% if field.errors %}
+                                    <p class="error">
+                                        {% for error in field.errors %}
+                                            {{ error }}
+                                        {% endfor %}
+                                    </p>
+                                {% endif %}
+                            </td>
+                        </div>
+                    </tr>
+                {% endfor %}
+                <tr>
+                    <td class="left_row">
+                        <input type="submit" class="btn btn-default" value="Wyślij"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
     <h2>Redakcja</h2>
     <ul>
-        <li><img src="{% static 'images/lukasz_pastuszynski_profile_photo.jpg'%}" width="64px" height="64px" title="Łukasz Pastuszyński" alt="Łukasz Pastuszyński"/>
+        <li><img src="{% static 'images/lukasz_pastuszynski_profile_photo.jpg' %}" class="contact_avatar"
+                 title="Łukasz Pastuszyński" alt="Łukasz Pastuszyński"/>
             <a href="https://twitter.com/lpastuszynski" target="_blank">
                 <div class="community_icon" id="community_twitter"></div>
             </a>
@@ -30,7 +77,8 @@ Kontakt
     <h2>Administrator</h2>
     <ul>
         <li>
-            <img src="{% static 'images/damian_galka_profile_photo.jpg'%}" width="64px" height="64px" title="Damian Gałka" alt="Damian Gałka"/>
+            <img src="{% static 'images/damian_galka_profile_photo.jpg' %}" class="contact_avatar" title="Damian Gałka"
+                 alt="Damian Gałka"/>
             <a href="http://pl.linkedin.com/pub/damian-gałka/74/a71/63/" target="_blank">
                 <div class="community_icon" id="community_linkedin"></div>
             </a>
