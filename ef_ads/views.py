@@ -1,9 +1,11 @@
 # -*- coding: utf-8 -*-
 from django.shortcuts import render, render_to_response
 from django.http import HttpResponseRedirect
+from django.template.context import RequestContext
 
 from .forms import EmployeeOfferForm, EmployerOfferForm
 from .models import EmployeeOffer, EmployerOffer
+
 
 
 # Create your views here.
@@ -12,7 +14,10 @@ EMPLOYER_OFFER_HEADLINES = [u'Tytuł', 'Autor', 'Data']
 
 
 def index(request):
-    return render_to_response('ogloszenia.html', locals())
+    context = RequestContext(request,
+                             {'request': request,
+                              'user': request.user})
+    return render_to_response('ogloszenia.html', context_instance=context)
 
 
 def employee_offer(request):

@@ -1,15 +1,19 @@
 /*SKELETON*/
 html {
-    background-color: #E6E5E4;
+    font-size: 14px;
     font-family: sans-serif;
-    background-image: url('../images/background_logo.png');
     color: #000000;
+}
+
+body {
+    background-color: #E6E5E4;
+    background-image: url('../images/background_logo.png');
 }
 
 #container {
     clear: both;
     width: 1024px;
-    padding: 10px;
+    /*padding: 10px;*/
     background-color: #F7F1EC;
     border-right: 2px solid #2790B0;
     border-left: 2px solid #2790B0;
@@ -27,7 +31,7 @@ html {
 
 #login-panel {
     width: 110%;
-    height: 20px;
+    height: 22px;
     background-color: black;
     position: fixed;
     top: 0;
@@ -35,13 +39,18 @@ html {
     z-index: 9999;
 }
 
-#login-panel .center-block {
-    text-align: right;
+#login-panel ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
 }
 
-#login-panel a {
-    color: #aaaaaa;
-    text-decoration: none;
+#login-panel li {
+    color: #ffffff;
+    float: right;
+    padding: 0px 10px 0px 10px;
+    margin-left: 2px;
+    text-align: center;
 }
 
 #login-panel a:hover {
@@ -49,10 +58,45 @@ html {
     text-decoration: underline;
 }
 
+#login-panel a {
+    text-decoration: none;
+}
+
+.btn-eurofundusze {
+    color: #f69e34;
+    background-color: #303030;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-eurofundusze:hover, .btn-eurofundusze:focus, .btn-eurofundusze:active, .btn-eurofundusze.active, .open > .dropdown-toggle.btn-eurofundusze {
+    color: #f7a849;
+    background-color: #181818;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-eurofundusze:active, .btn-eurofundusze.active, .open > .dropdown-toggle.btn-eurofundusze {
+    background-image: none
+}
+
+.btn-eurofundusze.disabled, .btn-eurofundusze[disabled], fieldset[disabled] .btn-eurofundusze, .btn-eurofundusze.disabled:hover, .btn-eurofundusze[disabled]:hover, fieldset[disabled] .btn-eurofundusze:hover, .btn-eurofundusze.disabled:focus, .btn-eurofundusze[disabled]:focus, fieldset[disabled] .btn-eurofundusze:focus, .btn-eurofundusze.disabled:active, .btn-eurofundusze[disabled]:active, fieldset[disabled] .btn-eurofundusze:active, .btn-eurofundusze.disabled.active, .btn-eurofundusze[disabled].active, fieldset[disabled] .btn-eurofundusze.active {
+    background-color: #303030;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-eurofundusze .badge {
+    color: #303030;
+    background-color: #f69e34
+}
+
+#login-panel.btn-eurofundusze:hover {
+    color: #f7a849;
+}
+
 main {
-    width: 650px;
-    padding: 20px;
-    display: table-cell;
+    width: 680px;
+    padding: 0 30px 30px 30px;
+    border-right: 1px dotted #2790B0;
+    min-height: 480px;
 }
 
 main a {
@@ -60,21 +104,9 @@ main a {
     text-decoration: none;
 }
 
-main a:hover {
+#container a:hover {
     color: #000000;
     text-decoration: underline;
-}
-
-aside {
-    width: 300px;
-    display: table-cell;
-    text-align: left;
-    border-left: 1px dotted #2790B0;
-    margin: 0 auto;
-}
-
-aside table {
-    margin: 0 auto;
 }
 
 .entry-header {
@@ -200,7 +232,7 @@ main p {
 
 #ads li {
     float: left;
-    width: 150px;
+    width: 140px;
     text-align: center;
 }
 
@@ -224,6 +256,8 @@ header {
     width: 1024px;
     height: 250px;
     position: relative;
+    top: 0px;
+    padding-top: 15px;
 }
 
 #banner {
@@ -232,12 +266,14 @@ header {
     background-image: url('../images/banner.png');
     background-repeat: no-repeat;
     background-position: center top;
+    position: relative;
+    top: 0px;
 }
 
 nav {
     width: 1004px;
     height: 40px;
-    margin: 5px 0 5px 0;
+    margin: 5px auto;
     padding: 0 10px 0px 10px;
     border-top: 1px solid #2790B0;
     border-bottom: 1px solid #2790B0;
@@ -252,16 +288,10 @@ nav ul {
 
 nav li {
     float: left;
-    padding: 10px 0 0px 0;
+    margin: 10px 0 0 0;
     width: 200px;
     height: 20px;
     text-align: center;
-    /*
-    border-right: 1px solid #2790B0;
-    -webkit-box-shadow: inset 0px 0px 13px 4px rgba(50, 50, 50, 0.63);
-    -moz-box-shadow:    inset 0px 0px 13px 4px rgba(50, 50, 50, 0.63);
-    box-shadow:         inset 0px 0px 13px 4px rgba(50, 50, 50, 0.63);
-    */
 }
 
 nav a {
@@ -376,14 +406,8 @@ footer a:hover {
     text-align: left;
 }
 
-#footer-extras h5 {
-    margin: 0;
+#footer-extras h6 {
     text-decoration: underline;
-}
-
-footer .tag-cloud {
-    position: relative;
-    top: -10px;
 }
 
 footer .tag-cloud {
@@ -398,7 +422,6 @@ footer .category-children {
 
 /*ENDFOOTER*/
 
-/*ASIDE*/
 #dynamic_menu {
     margin: 0 auto;
     width: 250px;
@@ -418,21 +441,26 @@ footer .category-children {
     display: block;
 }
 
-aside ul {
-    list-style-type: none;
-    padding: 0;
+/*ASIDE*/
+aside {
+    width: 324px;
+    padding-top: 0;
+    position: absolute;
+    top: 270px;
+    right: 8px;
 }
 
-aside li:first-child {
-    background-color: transparent;
-    margin: -40px;
+aside ul {
+    margin: 0 auto;
+    list-style-type: none;
+    background-color: #ffffff;
 }
 
 aside li {
     text-align: center;
     background: white;
-    width: 330px;
     padding: 5px;
+    margin-left: -37px;
 }
 
 input:checked + .ani {

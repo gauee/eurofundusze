@@ -6,9 +6,17 @@
     <title>Eurofundusze - {% block title %}{% endblock title %}
         {% block title-page %}{% endblock title-page %}
     </title>
+    <script type="text/javascript" src='{% static 'jquery/dist/jquery.js' %}'></script>
+    <script type="text/javascript" src='{% static 'bootstrap/dist/js/bootstrap.min.js' %}'></script>
+    <link rel="stylesheet" type="text/css" media="screen, projection"
+          href="{% static 'bootstrap/dist/css/bootstrap.css' %}"/>
+    <link rel="stylesheet" type="text/css" media="screen, projection"
+          href="{% static 'bootstrap-social/bootstrap-social.css' %}"/>
+    <link rel="stylesheet" type="text/css" media="screen, projection"
+          href="{% static 'font-awesome/css/font-awesome.css' %}"/>
     <link rel="stylesheet" type="text/css" media="screen, projection" href="{% static 'css/style.css' %}"/>
-    <meta name="google-site-verification" content="S0OSFOazDCJr0cUudP90QgsdwUStiiQG0sPPxnI76lk"/>
     <link rel="shortcut icon" href="{% static 'images/logotyp.png' %}">
+    <meta name="google-site-verification" content="S0OSFOazDCJr0cUudP90QgsdwUStiiQG0sPPxnI76lk"/>
     <meta charset="UTF-8">
     <meta name="description"
           content="Eurofundusze.eu to portal skierowany do sektora MSP oraz wszystkich zainteresowanych funduszami europejskimi. Nowa perspektywa na lata 2014-2020 daje polskim przedsiębiorcom duże możliwości rozwoju. Eurofundusze.eu zawiara informacje na temat aktualnych naborów, wyszukiwarkę naborów, system zleceń projeków biznesowych pomocny dla poszukujących zleceń oraz tych oferujących wsparcie konsultingowe w obszarach eurofunduszy. Potral udostępnia narzędzia analityczne, przydatke linki praz wyselekcjonowane informacje dotyczące funduszy europejskich.">
@@ -17,11 +25,7 @@
     <meta name="author" content="Łukasz Pastuszyński, Damian Gałka">
 </head>
 <body>
-<div id="login-panel">
-    <div class="center-block">
-        <a href="/admin">Zaloguj</a>
-    </div>
-</div>
+{% include "login_panel.html" %}
 
 <div id="container">
     {% include "header.html" %}

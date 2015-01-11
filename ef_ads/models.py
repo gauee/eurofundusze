@@ -27,7 +27,7 @@ class Offer(models.Model):
                                     instance.created_date.year,
                                     instance.created_date.month,
                                     instance.created_date.day,
-                                    Offer.objects.latest('id').id,
+                                    getLastId(),
                                     filename.encode('utf-8')))
 
     def save(self, *args, **kwargs):
@@ -38,6 +38,12 @@ class Offer(models.Model):
     def get_absolute_url(self):
         return "/ogloszenia/"
 
+
+def getLastId():
+    o = Offer.objects.all()
+    if o:
+        return Offer.objects.latest('id').id
+    return 0
 
 class EmployerOffer(Offer):
     start_date = models.DateField()

@@ -49,6 +49,7 @@ urlpatterns = patterns('',
                        url(r'^ogloszenia/', include('ef_ads.urls')),
                        url(r'^utils/', include('utils.urls')),
                        url(r'^privacy_policy/$', views.privacy_policy),
+                       url(r'^logout$', views.logout, name='logout'),
 
 
                        # Captcha
@@ -59,9 +60,11 @@ urlpatterns = patterns('',
                        url(r'^comments/', include('django_comments.urls')),
                        url(r'^', include(blog_urls, namespace='zinnia')),
 
-                       #Django social auth
-                       # url(r'', include('social_auth.urls', namespace='social')),
+                       # Django social auth
+                       url('', include('social.apps.django_app.urls', namespace='social')),
+                       url('', include('django.contrib.auth.urls', namespace='auth')),
 )
+# ) + static (settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 urlpatterns += patterns('django.contrib.sitemaps.views',
                         url(r'^sitemap.xml$', 'index',

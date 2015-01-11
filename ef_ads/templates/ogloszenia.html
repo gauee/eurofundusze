@@ -1,5 +1,5 @@
 {% extends "skeleton.html" %}
-{% load zinnia_tags i18n staticfiles ef_ads %}
+{% load zinnia_tags i18n staticfiles %}
 {% block title %}
     Ogłoszenia
 {% endblock title %}
@@ -8,7 +8,19 @@
 
     <div id="ads">
         <h2>Ogłoszenia</h2>
-        {% get_ads_navigation %}
+
+        <div id="ads_navi">
+            <ul>
+                <li><a href="/ogloszenia/wykonania">Wykonanie</a></li>
+                {% if user.is_authenticated %}
+                    <li><a href="/ogloszenia/nowe_wykonanie">Dodaj wykonanie</a></li>
+                {% endif %}
+                <li><a href="/ogloszenia/zlecenia">Zlecenie</a></li>
+                {% if user.is_authenticated %}
+                    <li><a href="/ogloszenia/nowe_zlecenie">Dodaj zlecenie</a></li>
+                {% endif %}
+            </ul>
+        </div>
         <div id="ads_content">
             {% block ads_content %}
             {% endblock ads_content %}

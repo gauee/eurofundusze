@@ -1,0 +1,28 @@
+<div id="login-panel">
+    <div class="center-block">
+        <ul>
+            <li>
+                <a class="btn btn-social btn-eurofundusze btn-xs" href="/admin"><i class="fa fa-desktop"></i>Panel
+                    Administracyjny</a>
+            </li>
+            {% if user.is_authenticated %}
+                <li>Witaj, {{ user.first_name }} {{ user.last_name }} <a href="/logout">[Wyloguj]</a></li>
+            {% else %}
+                <li>
+                    <a class="btn btn-social btn-twitter btn-xs"
+                       href="{% url 'social:begin' 'twitter' %}?next={{ request.path }}"><i
+                            class="fa fa-twitter-square"></i>Zaloguj</a>
+                </li>
+                <li>
+                    <a class="btn btn-social btn-google-plus btn-xs"
+                       href="{% url 'social:begin' 'google-oauth2' %}?next={{ request.path }}"><i
+                            class="fa fa-google-plus"></i>Zaloguj</a>
+                </li>
+                <li>
+                    <a class="btn btn-social btn-facebook btn-xs"
+                       href="{% url 'social:begin' 'facebook' %}?next={{ request.path }}"><i class="fa fa-facebook"></i>Zaloguj</a>
+                </li>
+            {% endif %}
+        </ul>
+    </div>
+</div>
