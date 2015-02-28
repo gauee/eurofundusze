@@ -96,7 +96,7 @@ main {
     width: 680px;
     padding: 0 30px 30px 30px;
     border-right: 1px dotted #2790B0;
-    min-height: 480px;
+    min-height: 880px;
 }
 
 main a {
@@ -483,6 +483,10 @@ input:checked + .ani div {
     margin: 0;
     text-align: center;
     background-color: rgb(241, 144, 20);
+}
+
+ul .bxslider {
+    padding-left: 30px;
 }
 
 /*ENDASIDE*/
