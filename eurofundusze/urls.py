@@ -59,6 +59,7 @@ urlpatterns = patterns('',
                        url(r'^', include('zinnia.urls', namespace='zinnia')),
                        url(r'^comments/', include('django_comments.urls')),
                        url(r'^', include(blog_urls, namespace='zinnia')),
+                       url(r'^ckeditor/', include('ckeditor.urls')),
 
                        # Django social auth
                        url('', include('social.apps.django_app.urls', namespace='social')),

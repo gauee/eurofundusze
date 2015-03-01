@@ -493,12 +493,12 @@ ul .bxslider {
 
 /*ZINNIA*/
 #paggination {
-    width: 650px;
+    width: 100%;
     background-color: rgba(255, 155, 0, 0.74);;
     float: none;
     display: flex;
     text-align: center;
-    padding: 0 0 7px 0;
+    padding: 0 0 0px 0;
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
     -webkit-border-radius: 10px 10px 10px 10px;
@@ -518,14 +518,14 @@ ul.paginator {
 
 ul.paginator li {
     float: left;
-    padding: 10px 0 0px 0;
+    padding: 5px 0 5px 0;
     width: 50px;
-    height: 20px;
+    height: 100%;
     text-align: center;
 }
 
 #paggination .current_page {
-    padding: 10px 10px 10px 10px;
+    padding: 7px;
     background-color: rgba(255, 253, 87, 0.83);
     font-weight: bold;
 }

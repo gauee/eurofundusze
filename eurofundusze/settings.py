@@ -9,7 +9,7 @@ ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 TEMPLATE_DEBUG = True
 
-ZINNIA_PAGINATION = 10
+ZINNIA_PAGINATION = 2
 
 INSTALLED_APPS = (
     'django.contrib.admin',
@@ -25,6 +25,8 @@ INSTALLED_APPS = (
     'mptt',
     'tagging',
     'zinnia',
+    'ckeditor',
+    'zinnia_ckeditor',
     'south',
     'captcha',
     'social.apps.django_app.default',
@@ -45,7 +47,6 @@ CKEDITOR_CONFIGS = {
     },
 }
 
-# SOCIAL APP AUTH
 TEMPLATE_CONTEXT_PROCESSORS = (
     'django.contrib.auth.context_processors.auth',
     'django.core.context_processors.debug',
@@ -56,6 +57,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'django.contrib.messages.context_processors.messages',
     'social.apps.django_app.context_processors.backends',
     'social.apps.django_app.context_processors.login_redirect',
+    'django.core.context_processors.request',
 )
 
 AUTHENTICATION_BACKENDS = (
@@ -79,15 +81,6 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-TEMPLATE_CONTEXT_PROCESSORS = (
-    'django.contrib.auth.context_processors.auth',
-    'django.contrib.messages.context_processors.messages',
-    'django.core.context_processors.i18n',
-    'django.core.context_processors.request',
-    'django.core.context_processors.media',
-    'django.core.context_processors.static',
-)
-
 ROOT_URLCONF = 'eurofundusze.urls'
 
 WSGI_APPLICATION = 'eurofundusze.wsgi.application'
@@ -103,7 +96,7 @@ USE_L10N = True
 USE_TZ = True
 
 # STATICFILES
-# STATIC_ROOT = os.path.join(BASE_DIR, "static")
+# STATIC_ROOT = os.path.join(BASE_DIR, "/")
 # STATIC_ROOT = os.path.join(BASE_DIR, "static/collected")
 
 STATIC_URL = '/static/'
@@ -129,7 +122,7 @@ BOWER_INSTALLED_APPS = (
 # END BOWER
 
 MEDIA_ROOT = os.path.join(PROJECT_PATH, "../media")
-MEDIA_URL = "media/"
+MEDIA_URL = "/media/"
 
 TEMPLATE_DIRS = (
     os.path.join(PROJECT_PATH, "templates"),
@@ -167,7 +160,3 @@ LOGGING = {
         },
     },
 }
-
-
-# TODO:
-# install simple-django-captcha and pil conf for captcha sendgrid-django django-phonenumber-field
